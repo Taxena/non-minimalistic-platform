@@ -1,0 +1,91 @@
+.staking-container {
+  padding: 3rem 10rem;
+}
+
+.staking-title {
+  text-align: center;
+  font-size: 3rem;
+  color: #58a6ff;
+}
+
+.staking-opportunities,
+.staking-rewards,
+.recent-stakes {
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.staking-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.staking-details {
+  background-color: #121417;
+  padding: 3rem 5rem;
+  border-radius: 10px;
+  margin: 3rem 0rem;
+}
+
+.staking-item {
+  background: linear-gradient(90deg, #4c44fa, #58a6ff);
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+  text-align: center;
+}
+
+.staking-item:hover {
+  transform: scale(1.025);
+}
+
+.staking-item h3 {
+  color: white;
+}
+
+.staking-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.staking-form input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  background: #161b22;
+  color: white;
+  text-align: center;
+}
+
+.stake-btn {
+  padding: 10px 15px;
+  background: linear-gradient(90deg, #58a6ff, #4c44fa);
+  color: white;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.stake-btn:hover {
+  background: #4c44fa;
+}
+
+.recent-stakes ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recent-stakes li {
+  background: #121417;
+  padding: 2rem;
+  margin: 5px 0;
+  border-radius: 8px;
+  text-align: center;
+}

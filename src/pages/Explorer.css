@@ -1,0 +1,89 @@
+.explorer-container {
+  color: #ffffff;
+  padding: 3rem 10rem;
+
+  border-radius: 10px;
+}
+
+.explorer-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.explorer-title {
+  font-size: 2.5rem;
+  color: #58a6ff;
+}
+
+.explorer-subtitle {
+  font-size: 1.2rem;
+  color: #9aa3b1;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0;
+}
+
+.stat-box {
+  background: linear-gradient(90deg, #58a6ff, #4c44fa);
+  padding: 2rem 1rem;
+  border-radius: 8px;
+  text-align: center;
+  width: 30%;
+}
+
+.stat-box h3 {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.stat-box p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  color: #58a6ff;
+  margin-bottom: 10px;
+}
+
+.block-details,
+.transaction-details,
+.recent-activity {
+  background-color: #121417;
+  padding: 2rem 4rem;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.block-details p,
+.transaction-details p {
+  font-size: 1rem;
+  color: #c9d1d9;
+}
+
+.no-data {
+  background-color: #161b22;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  color: #ff6161;
+  font-weight: bold;
+}
+
+.recent-activity ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recent-activity li {
+  background-color: #161b22;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  color: #58a6ff;
+}

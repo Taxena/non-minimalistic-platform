@@ -1,0 +1,148 @@
+.wallet-container {
+  padding: 3rem 10rem;
+}
+
+.wallet-title {
+  font-size: 3rem;
+  color: #58a6ff;
+  font-weight: bold;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.wallet-summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.wallet-balance {
+  background: linear-gradient(to bottom right, #20bdff, #5433ff);
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  flex: 1;
+  margin-right: 10px;
+  color: white;
+}
+
+.wallet-balance-amount {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.wallet-stats {
+  background: linear-gradient(to bottom right, #20bdff, #5433ff);
+  padding: 15px;
+  border-radius: 8px;
+  flex: 1;
+}
+
+/* .wallet-stats-title {
+
+} */
+
+.wallet-stats ul {
+  list-style: none;
+  padding: 0;
+  color: white;
+}
+
+.wallet-tokens {
+  margin-top: 20px;
+}
+
+.wallet-tokens-title {
+  font-size: 22px;
+  color: white;
+}
+
+.tokens-list {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.market-tokens {
+  display: flex;
+  gap: 1rem;
+  color: #4c44fa;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.market-card {
+  background-color: #121417;
+  padding: 1rem 5rem;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.wallet-transactions {
+  margin-top: 20px;
+}
+
+.wallet-transactions-title {
+  font-size: 22px;
+  color: #58a6ff;
+}
+
+.transactions-list {
+  list-style: none;
+  padding: 0;
+}
+
+.transaction-item {
+  background-color: #121417;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.transaction-status {
+  font-weight: bold;
+}
+
+.transaction-item.completed .transaction-status {
+  color: #58a6ff;
+}
+
+.transaction-item.pending .transaction-status {
+  color: orange;
+}
+
+.wallet-actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.wallet-action-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 0.3s;
+}
+
+.wallet-action-btn.send {
+  background-color: #4c44fa;
+  color: white;
+}
+
+.wallet-action-btn.receive {
+  background-color: #58a6ff;
+  color: white;
+}
+
+.wallet-action-btn:hover {
+  opacity: 0.8;
+}

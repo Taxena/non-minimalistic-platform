@@ -1,0 +1,224 @@
+.governance-title {
+  text-align: center;
+  font-size: 3rem;
+  color: #58a6ff;
+  margin: 5rem auto;
+}
+
+.proposals-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #58a6ff;
+  padding: 0rem 10rem;
+}
+
+.community-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #58a6ff;
+}
+
+.trending-section,
+.members-section,
+.community-section {
+  background: #121417;
+  padding: 2rem 4rem;
+  border-radius: 10px;
+}
+
+.proposals-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 3rem 10rem;
+}
+
+.proposal-card {
+  background: #1a1f25;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.proposal-card.open {
+  background: linear-gradient(90deg, #4c44fa, #58a6ff);
+}
+
+.proposal-card.closed {
+  border-color: #4c44fa;
+  opacity: 0.5;
+  background: linear-gradient(90deg, #4c44fa, #58a6ff);
+}
+
+.proposal-card h3 {
+  font-size: 1.4rem;
+}
+
+.proposal-card p {
+  margin: 5px 0;
+}
+
+.voting-section {
+  background: #1a1f25;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.vote-options button {
+  margin-right: 10px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 100px;
+}
+
+.vote-for {
+  background: #58a6ff;
+  color: white;
+}
+
+.vote-against {
+  background: #4c44fa;
+  color: white;
+}
+
+.cancel-vote {
+  background: gray;
+  color: white;
+}
+
+.proposal-detail-section {
+  background: #1a1f25;
+  padding: 20px;
+  margin-bottom: 5rem;
+  padding: 3rem 10rem;
+}
+
+.vote-button {
+  background: linear-gradient(90deg, #58a6ff, #4c44fa);
+
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 100px;
+  display: block;
+  margin-top: 15px;
+}
+
+.vote-button:hover {
+  background: #4c44fa;
+}
+
+.trending-section ul,
+.members-section ul,
+.community-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.trending-section li,
+.members-section li,
+.community-section li {
+  margin-bottom: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #58a6ff;
+  font-size: 1.2rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #121417;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.governance-title {
+  font-size: 3rem;
+  text-align: center;
+  color: #58a6ff;
+}
+
+.proposals-section h2,
+.trending-section h2,
+.members-section h2,
+.community-section h2 {
+  font-size: 2rem;
+  color: white;
+}
+
+.proposals-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.proposal-card {
+  background: linear-gradient(145deg, #161b22, #121417);
+  padding: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.status-open {
+  color: #58a6ff;
+  font-weight: bold;
+}
+
+.status-closed {
+  color: red;
+  font-weight: bold;
+}
+
+.voting-modal {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.vote-options button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+
+  border-radius: 100px;
+}
+
+.vote-for {
+  background: green;
+  color: white;
+}
+
+.vote-against {
+  background: red;
+  color: white;
+}
+
+.cancel-vote {
+  background: grey;
+  color: white;
+}
+
+.community-section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.support-cards {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 5rem;
+  padding: 3rem 10rem;
+}

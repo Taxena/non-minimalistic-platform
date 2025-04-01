@@ -1,0 +1,89 @@
+.asset-detail-container {
+  background-color: #333;
+  color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.asset-detail-header {
+  display: flex;
+  align-items: center;
+}
+
+.asset-detail-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.asset-detail-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.asset-detail-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.asset-detail-symbol {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin: 5px 0;
+}
+
+.asset-detail-price {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2c3d8f;
+}
+
+.asset-detail-body {
+  margin-top: 20px;
+}
+
+.asset-detail-section {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.asset-detail-ownership,
+.asset-detail-transaction-count {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+.asset-detail-transactions {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.transaction-item {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.transaction-id {
+  font-weight: bold;
+}
+
+@media (max-width: 1920px) {
+  .asset-detail-container {
+    padding: 20px;
+  }
+
+  .asset-detail-name {
+    font-size: 1.3rem;
+  }
+
+  .asset-detail-price {
+    font-size: 1.1rem;
+  }
+}

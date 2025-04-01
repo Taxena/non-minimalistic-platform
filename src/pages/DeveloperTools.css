@@ -1,0 +1,170 @@
+.developer-tools-container {
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.developer-tools-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #58a6ff;
+  margin-bottom: 2rem;
+}
+
+.developer-tools-subtitle {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 4rem;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.tab {
+  padding: 12px 20px;
+  border: none;
+  background: #161b22;
+  color: #58a6ff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 0.3s ease-in-out;
+  border: 2px solid #58a6ff;
+}
+
+.tab.active,
+.tab:hover {
+  background: linear-gradient(to bottom right, #20bdff, #5433ff);
+  color: #fff;
+  border: none;
+}
+
+.tab-content {
+  background: #161b22;
+  padding: 3rem;
+  background-color: #121417;
+  /* animation: fadeIn 0.5s ease-in-out; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tab-content h2 {
+  font-size: 2rem;
+  border-bottom: 3px solid #58a6ff;
+  padding-bottom: 2rem;
+  margin-bottom: 20px;
+}
+
+.doc-list,
+.api-list {
+  list-style: none;
+  padding: 0;
+}
+
+.doc-list li,
+.api-list li {
+  margin: 12px 0;
+  font-size: 1.2rem;
+}
+
+.doc-list li a,
+.api-list li {
+  color: #58a6ff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.doc-list li a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 12px 18px;
+  font-size: 1.1rem;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  margin: 10px;
+  border: none;
+  width: 100%;
+}
+
+.btn-primary {
+  background: linear-gradient(to bottom right, #20bdff, #5433ff);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+}
+
+.btn-secondary {
+  background: #121417;
+  color: #58a6ff;
+  border: 2px solid #58a6ff;
+}
+
+.btn-secondary:hover {
+  transform: scale(1.05);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #121417;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 4px 10px rgba(76, 68, 250, 0.3);
+  border: 2px solid #58a6ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card h3 {
+  font-size: 1.6rem;
+  color: #58a6ff;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.link {
+  color: #58a6ff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.api-actions,
+.doc-resources,
+.contract-actions {
+  margin-top: 20px;
+}

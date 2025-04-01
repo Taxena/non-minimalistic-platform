@@ -1,0 +1,124 @@
+.profile-title {
+  font-size: 3rem;
+  color: #58a6ff;
+  font-weight: bold;
+  text-align: center;
+  margin: 5rem auto;
+}
+
+.profile-details,
+.security-section {
+  background-color: #121417;
+  padding: 3rem 10rem;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.activity-section {
+  background-color: #161b22;
+  border-radius: 8px;
+  padding: 3rem 10rem;
+
+  margin-bottom: 20px;
+}
+
+.activity-section ul {
+  list-style: none;
+  margin-top: 2rem;
+  padding: 0 0 0 0;
+}
+
+.profile-details h2,
+.activity-section h2,
+.security-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: whtie;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-info p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.input-field {
+  padding: 5px;
+  font-size: 1rem;
+  border: 1px solid #58a6ff;
+  background-color: #121417;
+  color: white;
+  border-radius: 100px;
+}
+
+.edit-btn,
+.save-btn {
+  background: linear-gradient(90deg, #58a6ff, #4c44fa);
+
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.edit-btn:hover,
+.save-btn:hover {
+  background-color: #58a6ff;
+}
+
+.activity-item {
+  background-color: #1e242d;
+  padding: 0.7rem 3rem;
+  border-radius: 5px;
+  margin: 0.7rem 0;
+  font-size: 1.1rem;
+}
+
+.activity-item:hover {
+  background-color: #4c44fa;
+  cursor: pointer;
+}
+
+.security-options p {
+  font-size: 1.2rem;
+}
+
+.api-key {
+  background-color: #1e242d;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.toggle-key-btn {
+  background: linear-gradient(90deg, #58a6ff, #4c44fa);
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+
+.change-2fa-btn {
+  background: linear-gradient(90deg, #58a6ff, #4c44fa);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.change-2fa-btn:hover {
+  background-color: #58a6ff;
+}
