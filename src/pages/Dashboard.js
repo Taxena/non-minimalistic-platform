@@ -150,14 +150,13 @@ const Dashboard = () => {
             ))}
           </div>
           <button className="more-button">
-            <Link to="/staking" className="more-button-link">
+            <Link to="/marketplace" className="more-button-link">
               View More
             </Link>
           </button>
         </div>
 
 
-        {/* News & Updates Section */}
         <div className="news-section">
           <h2 className="dashboard-title">Blockchain News & Updates</h2>
           <p className="section-description">

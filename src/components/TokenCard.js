@@ -2,6 +2,10 @@ import React from "react";
 import "./TokenCard.css";
 
 const TokenCard = ({ asset, onClick }) => {
+  const handleBuyClick = (e) => {
+    e.stopPropagation();
+    alert(`You have purchased ${asset.name} for ${asset.price} ETH!`);
+  };
   return (
     <div className="token-card" onClick={onClick}>
       {/* <img src={asset.imageUrl} alt={asset.name} className="token-image" /> */}
@@ -12,9 +16,7 @@ const TokenCard = ({ asset, onClick }) => {
           <span className="token-price">💰 {asset.price}</span>
           <span className="token-owner">👤 {asset.owner}</span>
         </div>
-        <button className="buy-button" onClick={(e) => { e.stopPropagation(); onBuy(asset); }}>
-          Buy Now
-        </button>
+        <button className="buy-button" onClick={handleBuyClick}>Buy Now</button>
       </div>
     </div>
   );

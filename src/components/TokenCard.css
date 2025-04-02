@@ -55,7 +55,7 @@
 }
 
 .buy-button {
-  background-color: #28a745;
+  background: linear-gradient(90deg, #58a6ff, #4c44fa);
   color: white;
   border: none;
   padding: 10px;
@@ -67,5 +67,5 @@
 }
 
 .buy-button:hover {
-  background-color: #218838;
+  background: linear-gradient(90deg, #58a6ff, #4c44fa);
 }

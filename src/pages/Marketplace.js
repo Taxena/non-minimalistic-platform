@@ -44,20 +44,10 @@ const Marketplace = () => {
     setFilteredAssets(filtered);
   }, [selectedCategory, maxPrice, assets]);
 
-  const handleAssetClick = (asset) => {
-    setSelectedAsset(asset);
-    setIsDetailModalOpen(true);
-  };
-
   const closeDetailModal = () => {
     setIsDetailModalOpen(false);
     setSelectedAsset(null);
   };
-
-  const handleBuyAsset = (asset) => {
-    alert(`You have purchased ${asset.name} for ${asset.price} ETH!`);
-  };
-
 
   return (
     <div className="marketplace-container">
@@ -71,7 +61,6 @@ const Marketplace = () => {
         <p>Exclusive drops happening now!</p>
       </div>
 
-      {/* Filters Section */}
       <div className="filters">
         <select value={selectedCategory} onChange={(e) => setSelectedCategory(e.target.value)} className="filter-dropdown">
           <option value="All">All Categories</option>
@@ -89,10 +78,9 @@ const Marketplace = () => {
         </div>
       </div>
 
-      {/* Token Cards Section */}
       <div className="asset-listing">
         {filteredAssets.map((asset) => (
-          <TokenCard key={asset.id} asset={asset} onBuy={handleBuyAsset} />
+          <TokenCard key={asset.id} asset={asset} />
         ))}
       </div>
 
