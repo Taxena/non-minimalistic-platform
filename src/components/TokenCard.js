@@ -12,6 +12,9 @@ const TokenCard = ({ asset, onClick }) => {
           <span className="token-price">💰 {asset.price}</span>
           <span className="token-owner">👤 {asset.owner}</span>
         </div>
+        <button className="buy-button" onClick={(e) => { e.stopPropagation(); onBuy(asset); }}>
+          Buy Now
+        </button>
       </div>
     </div>
   );

@@ -54,6 +54,11 @@ const Marketplace = () => {
     setSelectedAsset(null);
   };
 
+  const handleBuyAsset = (asset) => {
+    alert(`You have purchased ${asset.name} for ${asset.price} ETH!`);
+  };
+
+
   return (
     <div className="marketplace-container">
       <header className="marketplace-header">
@@ -87,7 +92,7 @@ const Marketplace = () => {
       {/* Token Cards Section */}
       <div className="asset-listing">
         {filteredAssets.map((asset) => (
-          <TokenCard key={asset.id} asset={asset} onClick={() => handleAssetClick(asset)} />
+          <TokenCard key={asset.id} asset={asset} onBuy={handleBuyAsset} />
         ))}
       </div>
 
